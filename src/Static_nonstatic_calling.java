@@ -20,7 +20,7 @@ public class Static_nonstatic_calling {
         obj1.model = "S24 Ultra";
         obj1.price = 150000;
         Mobile.name = "Smart Phones";
-        obj1.show();
+//        obj1.show();
         Mobile.show1(obj1);
     }
 }
