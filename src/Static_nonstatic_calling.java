@@ -19,9 +19,15 @@ public class Static_nonstatic_calling {
         Mobile obj1 = new Mobile();
         obj1.model = "S24 Ultra";
         obj1.price = 150000;
-        Mobile.name = "Smart Phones";
+
+        Mobile.name = "SmartPhones";
+
+        Mobile obj2 = new Mobile();
+        obj2.price = 60000;
+        obj2.model = "s24";
 //        obj1.show();
         Mobile.show1(obj1);
+        Mobile.show1(obj2);
     }
 }
 
