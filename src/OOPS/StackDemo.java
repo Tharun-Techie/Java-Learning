@@ -5,7 +5,10 @@ public class StackDemo {
             Stack s1 = new Stack();
         System.out.println(s1.tos);
             s1.push(10);
-            s1.pop();
+            s1.push(10);
+            s1.push(20);
+            s1.push(30);
+
 
         System.out.println(s1.tos);
         for (int a:s1.s){
