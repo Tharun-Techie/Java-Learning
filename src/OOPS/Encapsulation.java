@@ -19,6 +19,7 @@ class Student{
     int getAge(){
         return Age;
     }
+
 }
 
 public class Encapsulation {
