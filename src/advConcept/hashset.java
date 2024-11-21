@@ -8,7 +8,7 @@ public class hashset {
 
     static boolean solution(int[] nums, int k){
          Set<Integer> val = new HashSet<>();
-
+        // iterating the array
         for(int arr: nums){
             if ( val.contains(arr)== false){
                 val.add(arr);
