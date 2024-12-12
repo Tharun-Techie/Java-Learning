@@ -29,3 +29,4 @@ public class hashset {
         System.out.println(solution(nums,k));
     }
 }
+
