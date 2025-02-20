@@ -1,2 +1,7 @@
-package Tamil;public class eg2 {
+package Tamil;
+
+import java.util.Scanner;
+
+public class eg2 {
+    
 }
