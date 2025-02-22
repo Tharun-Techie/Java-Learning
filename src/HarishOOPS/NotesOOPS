@@ -1,0 +1,29 @@
+object
+-Attribute
+-methods
+
+pillars of oops
+- encapsulation - change height method()
+- polymorphism - ability to perform differently at different situations
+- inheritance
+- abstraction - show only required thing and hide unwanted thing to the user (Binding attribute and method)
+
+why -oop
+- better organization
+- easy modularity
+- Scalability of the code
+
+access modifiers
+only written in side the class but not in method.
+
+private - can only used inside the class eg inside class's method
+protected - can use only inside the packages , different classes which is under the same package
+public - can use in different packages
+
+
+inheritance-
+is a - relationship child -> parent
+has a  - relationship  parent -> child
+
+
+

@@ -1,4 +1,11 @@
 package Dump;
+
+class Ram{
+    void ans(){
+        System.out.println("Hare Rama Hare Krishna");
+    }
+}
+
 class Demo{
     public static void demo(){
         System.out.println("I am from Demo 1");
@@ -22,6 +29,10 @@ public class Test1 {
 
         Demo2 object = new Demo2();
         object.demo2();
+
+        Ram ram = new Ram();
+            ram.ans();
+
 
     }
 
