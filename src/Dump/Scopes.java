@@ -10,7 +10,10 @@ public class Scopes {
 
     public static void main(String[] args) {
         System.out.println("Hello Java!!!");
-
+        Fibonacci fi = new Fibonacci();
         Scopes.result();
+
+
+
     }
 }

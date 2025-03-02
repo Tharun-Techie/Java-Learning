@@ -1,0 +1,28 @@
+Find the maximum and minimum elements in an array.
+Find the sum of all elements in an array.
+Reverse an array.
+Find the second largest element in an array.
+Check if an array is sorted.
+Remove duplicates from a sorted array.
+Rotate an array to the left by one position.
+Rotate an array to the right by one position.
+Find the frequency of each element in an array.
+Find the missing number in an array of size n−1 containing numbers from 1 to  n
+Merge two sorted arrays into a single sorted array.
+Find the union and intersection of two sorted arrays.
+Move all zeros to the end of the array.
+Find the subarray with a given sum.
+Find the largest sum contiguous subarray (Kadane’s Algorithm).
+Find the equilibrium index of an array (index where sum of elements on left equals sum on right).
+Find the element that appears once in an array where every other element appears twice.
+Find the two numbers that appear only once in an array where every other number appears twice.
+Find the first repeating element in an array.
+Sort an array containing only 0s, 1s, and 2s (Dutch National Flag problem).
+Find the maximum product subarray
+Find the length of the longest consecutive sequence in an unsorted array
+Find the majority element (appears more than n/2 times) in an array
+Given an array, find the smallest missing positive integer
+Find the count of subarrays with sum equal to zero.
+Find the longest subarray with the given sum k.
+Rearrange an array so that elements at even indices are greater than those at odd indices
+Find the maximum sum of k consecutive elements in an array (Sliding Window)
