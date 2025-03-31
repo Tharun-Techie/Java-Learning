@@ -17,8 +17,18 @@ public class Q5 {
 
     // Function to reverse the array
     public static void reverseArray(int[] arr) {
-        int n = arr.length / 2;
 
+        int right = arr.length-1;
+        int left = 0;
+
+                while (right > left){
+
+                    int temp = arr[left];
+                    arr[left]= arr[right];
+                    arr[right]= temp;
+                    right --;
+                    left ++;
+                }
 
     }
 

@@ -14,9 +14,9 @@ public class DemoTest {
         map.put(6,7.7);
         map.put(7,8.2);
 
-        System.out.println(map.entrySet());
-        System.out.println(map.keySet());
-        System.out.println(map.values());
+        System.out.println("map.entrySet(): "+map.entrySet());
+        System.out.println("map.keySet(): "+map.keySet());
+        System.out.println("map.values(): "+map.values());
         System.out.println(map.remove(6));
         System.out.println(map.size());
 
