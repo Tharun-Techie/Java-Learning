@@ -1,9 +1,13 @@
+import java.io.PrintWriter;
 
+public class Test  {
 
-class Test {
-    public static void main(String[] args) {
-    java.util.ArrayList l = new java.util.ArrayList(); 
+    public static void main(String[] args) throws Exception {
+        PrintWriter pw = new PrintWriter("abc.txt");
+        pw.println("Hello, World!");
+        pw.close();
+        System.out.println(10/0);
 
-    System.err.println("d");
+        
     }
 }
