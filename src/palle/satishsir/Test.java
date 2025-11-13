@@ -1,5 +1,7 @@
 package palle.satishsir;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Map;
 import java.util.HashMap;
 
@@ -21,7 +23,6 @@ public class Test {
         System.out.println(t);
 
     }
-
 
     static void isPalindrome() {
         String s = "MALAALAM";
@@ -47,7 +48,6 @@ public class Test {
         System.out.println("Total Vowels: " + count);
 
     }
-
 
     static void countWords() {
         String s = "hello dill wale dill dunia  ley jayengi";
@@ -111,14 +111,12 @@ public class Test {
         System.out.println(dict);
     }
 
-
     static void mapQuestion2() {
 
         Map<Integer, Integer> dict = new HashMap<>();
 
-
         for (int i = 1; i <= 10; i++) {
-            dict.put(i, 10 - i);
+            dict.put(i, 100 - i);
         }
 
         System.out.println(dict);
@@ -128,15 +126,24 @@ public class Test {
 
         if (dict.containsKey(10) == true) {
             dict.put(10, dict.get(10) + 1);
+        } else {
+            dict.put(10, 1);
         }
-
+        System.out.println(dict);
         System.out.println(dict.get(10));
+
+
+        System.out.println(dict.containsKey(20));
+
+        if (dict.containsKey(20)){
+            
+        }
 
 
     }
 
+
     public static void main(String[] args) {
-        mapQuestion2();
 
 
     }
